@@ -27,17 +27,17 @@ mvn clean install
 ## Running Tests
 
 ### Running All Tests
-**mvn clean test**
+- mvn clean test
 
 ### Running API Tests
-**mvn clean test "-Dcucumber.filter.tags=@api"**
+- mvn clean test "-Dcucumber.filter.tags=@api"
 
 ### Running UI Tests
-**mvn clean test "-Dbrowser=chrome-headless" "-Dcucumber.filter.tags=@ui"**
+- mvn clean test "-Dbrowser=chrome-headless" "-Dcucumber.filter.tags=@ui"
 
 ## Viewing Reports
 To view reports locally: After running the tests run the below command 
-**mvn allure:serve**
+- mvn allure:serve
 (This will start a local server and open the interactive Allure dashboard in your browser.)
 
 (I've attached screenshots from Allure report)

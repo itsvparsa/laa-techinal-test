@@ -3,7 +3,7 @@ Feature: Pet store operations
 
   As a pet store API access user,
   I wanted to access all the endpoints of Create, Fetch, Update, Delete operations of the pet store,
-  so I can create the data
+  so I can create and amend the data
 
   @create_pet
   Scenario: Create a pet and get details

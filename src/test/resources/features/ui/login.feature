@@ -2,7 +2,7 @@
 Feature: Login to Swag Labs
 
   As a registered user,
-  I want to log in to the swag lags using username and password,
+  I want to log in to the swag lags using credentials,
   so that I can securely access swag labs site.
 
   Scenario: Login to swag labs site and verify the user successfully logged in
