@@ -23,3 +23,13 @@ Feature: Pet store operations
     And I should see 200 response code
     When I send GET request to '/pet/{petId}'
     Then I should see 404 response code
+
+
+#  Additional Scenarios
+#
+#  Scenario: Test uploadImage endpoint and see image is successfully added
+#  Scenario:  Update the Pet and see updates are successful
+#  Scenario: Try to find the pets by Status
+#  Scenario: Try to find the pet which is not exists
+#  Scenario: Try to create a Pet using invalid data and see correct errors are generated
+

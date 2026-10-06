@@ -16,3 +16,14 @@ Feature: Login to Swag Labs
     When the user enter credentials as 'incorrect_username' 'incorrect_password'
     Then the user should see error message generated
 
+
+#. Additional Scenarios:
+
+#  Scenario: End to checkout process
+#  Scenario: Checkout process with multiple items
+#  Scenario: Updating the basket and see Price is getting updated based on the updates
+#  Scenario: Adding to the basket and Removing and see the basket is empty
+#  Scenario: Verify product details
+#  Scenario: Verify the different types of the sorting
+#  Scenario: Verify the other menu items
+
