@@ -1,0 +1,9 @@
+.classpath
+.project
+.settings/
+.allure/
+allure-results/
+.idea/
+*.iml
+.mvn_repo/
+target/
